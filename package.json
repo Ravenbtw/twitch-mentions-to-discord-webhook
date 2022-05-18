@@ -1,0 +1,26 @@
+{
+  "name": "mentions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravenbtw/mentions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravenbtw/mentions/issues"
+  },
+  "homepage": "https://github.com/Ravenbtw/mentions#readme",
+  "dependencies": {
+    "@twurple/chat": "^5.1.6",
+    "axios": "^0.27.2"
+  },
+  "type": "module"
+}
