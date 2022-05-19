@@ -14,23 +14,22 @@ await chatClient.connect();
 
 chatClient.onMessage(async (channel, user, message) => {
   try {
-    const wordsInMessage = message
-      .replace(/[^a-z0-9_]/gi, ' ')
-      .split(' ')
-      .map((word) => word.toLowerCase());
+    const fixedMessage = message.toLowerCase();
+
+    const wordsInMessage = fixedMessage.replace(/[^a-z0-9_]/gi, ' ').split(' ');
 
     let isMention = false;
 
     loop: for (const { type, value } of triggers) {
       switch (type) {
         case 'word':
-          if (wordsInMessage.includes(value)) {
+          if (wordsInMessage.includes(value.toLowerCase())) {
             isMention = true;
             break loop;
           }
           break;
         case 'phrase':
-          if (message.includes(value)) {
+          if (fixedMessage.includes(value.toLowerCase())) {
             isMention = true;
             break loop;
           }
