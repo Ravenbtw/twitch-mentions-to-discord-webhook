@@ -51,6 +51,10 @@ chatClient.onMessage(async (channel, user, message) => {
                   value: channel,
                 },
                 {
+                  name: 'User',
+                  value: user,
+                },
+                {
                   name: 'Message',
                   value: message,
                 },
