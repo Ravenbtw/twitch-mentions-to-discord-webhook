@@ -1,4 +1,4 @@
-# Mentions
+# Twitch Mentions to Discord Webhook
 
 Send Twitch mentions to a Discord channel with a webhook.
 

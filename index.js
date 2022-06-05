@@ -41,7 +41,7 @@ chatClient.onMessage(async (channel, user, message) => {
       await axios.post(
         webhook,
         JSON.stringify({
-          username: 'Mentions',
+          username: 'Twitch Mentions to Discord Webhook',
           embeds: [
             {
               color: 9520895,

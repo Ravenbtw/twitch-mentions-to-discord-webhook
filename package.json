@@ -1,5 +1,5 @@
 {
-  "name": "mentions",
+  "name": "twitch-mentions-to-discord-webhook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ravenbtw/mentions.git"
+    "url": "git+https://github.com/Ravenbtw/twitch-mentions-to-discord-webhook.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ravenbtw/mentions/issues"
+    "url": "https://github.com/Ravenbtw/twitch-mentions-to-discord-webhook/issues"
   },
-  "homepage": "https://github.com/Ravenbtw/mentions#readme",
+  "homepage": "https://github.com/Ravenbtw/twitch-mentions-to-discord-webhook#readme",
   "dependencies": {
     "@twurple/chat": "^5.1.6",
     "axios": "^0.27.2"
